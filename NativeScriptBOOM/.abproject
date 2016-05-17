@@ -3,9 +3,9 @@
   "ProjectGuid": "f23e5347-e23d-43ff-96f8-ac4b4224df05",
   "projectVersion": 1,
   "AppIdentifier": "com.telerik.NativeScriptBOOM",
-  "DisplayName": "NativeScriptBOOM",
+  "DisplayName": "BOOM",
   "Author": "",
-  "Description": "NativeScriptBOOM",
+  "Description": "NativeScript BOOM App",
   "BundleVersion": "1.0",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
@@ -23,6 +23,6 @@
   ],
   "AndroidHardwareAcceleration": "true",
   "iOSStatusBarStyle": "Default",
-  "FrameworkVersion": "1.7.1",
+  "FrameworkVersion": "2.0.0",
   "Framework": "NativeScript"
 }

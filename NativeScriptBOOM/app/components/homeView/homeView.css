@@ -1,0 +1,30 @@
+.title {
+	font-size: 32px;
+}
+.animation-btn {
+	horizontal-align: left;
+	width: 70;
+	height: 70;
+	margin: 7;
+	color: white;
+}
+.cool1 {
+	background-color: #91C83E;
+}
+.cool2 {
+	background-color: #F8A426;
+}
+.cool3 {
+	background-color: #EC592B;
+}
+.cool4 {
+	background-color: #7883C0;
+}
+.show-all {
+	color: white;
+	background-color: #EC592B;
+	vertical-align: center;
+	horizontal-align: center;
+	width: 200;
+	height: 60;
+}

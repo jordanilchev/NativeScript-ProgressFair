@@ -2,12 +2,22 @@
     <Page.actionBar>
         <widgets:action-bar />
     </Page.actionBar>
-
     <StackLayout>
-        <!-- additional view content -->
-        <!-- START_CUSTOM_CODE_homeView -->
-        <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+        <StackLayout id="buttons">
+		<Button text="SPIN" tap="fade" class="animation-btn cool1" />
 
-        <!-- END_CUSTOM_CODE_homeView -->
-    </StackLayout>
+		<Button text="DASH" tap="dash" class="animation-btn cool2" />
+
+		<Button text="ROLL" tap="roll" class="animation-btn cool3" />
+
+		<Button text="WORM" tap="worm" class="animation-btn cool4" />     
+        </StackLayout>
+	<StackLayout>
+		<Label cssClass="title" tap="bigBang" text="Progres Fair" />
+		<Button tap="bigBang" text="Android BOOOM!!!" />
+		<Button text="BRING THEM BACK" id="show-all"
+			class="show-all" tap="showAll" />
+	</StackLayout>
+  </StackLayout>
+
 </Page>

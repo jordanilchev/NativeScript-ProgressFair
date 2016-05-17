@@ -12,7 +12,7 @@
   ],
   "dataProviders": [],
   "name": "nativeScriptApp",
-  "navigation": "listmenu",
-  "transition": "none",
+  "navigation": "none",
+  "view": "homeView",
   "skin": "native"
 }
